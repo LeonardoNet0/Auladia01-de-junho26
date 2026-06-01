@@ -1,0 +1,9 @@
+venv/
+**/venv/
+
+#arquivos ignoreados
+*.csv
+*.xls
+*.xlsx
+*.ppt
+*.pptx
