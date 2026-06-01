@@ -1,7 +1,7 @@
 # pip install sqlalchemy
 # pip  install pymysql
 
-from sqlalchemy import creat_engine
+from sqlalchemy import create_engine
 import pandas as pd 
 
 host = 'localhost' #127.0.0.1
@@ -11,7 +11,7 @@ database = 'bd_mod02_aula03'
 
 #Url de conexao
 
-engine = creat_engine(
+engine = create_engine (
     f'mysql+pymysql://{user}:{password}@{host}/{database}'
 )
 
